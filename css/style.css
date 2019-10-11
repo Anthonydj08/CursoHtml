@@ -1,6 +1,14 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+header figure{
+    display: flex;
+    justify-content: center;
+}
+p {
+    text-indent: 2em;
+    text-align: justify;
+}
 
 body {
     margin: 0;
@@ -23,7 +31,6 @@ footer {
     clear: both;
     width: 100%;
     display: inline-block;
-    margin: 2em 0;
     height: 70px;
     background-color: #999;
 }
@@ -35,9 +42,9 @@ footer .copyright {
 
 footer p {
     padding-left: 10%;
+    padding-top: 20px;
     color: white;
     font-size: 0.7em;
-    line-height: 70px;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -80,7 +87,6 @@ footer p {
     width: 40%;
 }
 
-
 /* menu */
 
 nav {
@@ -111,11 +117,8 @@ li a:hover {
 }
 
 .foto {
-    width: 650px;
-}
-
-figcaption {
-    align-content: center;
+    max-width: 100% !important;
+    height: auto;
 }
 
 .grid {
@@ -142,6 +145,10 @@ figcaption {
 .card {
     align-items: center;
     display: flex;
+}
+
+.card:hover {
+    opacity: 0.7;
 }
 
 .miniatura {
