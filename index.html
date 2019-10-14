@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -10,13 +10,13 @@
 
 <body>
     <header>
-        <figure>
-            <img src="imagens/logo.png" alt="">
+        <figure >
+            <img src="imagens/logo.png" alt="Logo do site" draggable="false">
         </figure>
     </header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="">Tecnologia</a></li>
             <li><a href="">Ciência</a></li>
             <li><a href="">Biologia</a></li>
@@ -78,30 +78,34 @@
     </section>
     <aside>
         <div class="grid">
-            <a>Mais recentes</a>
+            <h3>Mais recentes</h3>
             <a href="https://codepen.io/stix/pen/vgYwzG" class="listCard">
                 <article class="card">
                     <img class="miniatura"
                         alt="Imagem de: iPhone 11, 11 Pro e 11 Pro Max têm preços revelados no Brasil"
                         src="imagens/iphone11.jpg">
-                    <div>
-                        <h3>
-                            iPhone 11, 11 Pro e 11 Pro Max têm preços revelados no Brasil
-                        </h3>
-                    </div>
+                    <h3>
+                        iPhone 11, 11 Pro e 11 Pro Max têm preços revelados no Brasil
+                    </h3>
                 </article>
             </a>
             <a href="https://codepen.io/stix/pen/vgYwzG" class="listCard">
                 <article class="card">
                     <img class="miniatura" alt="Spotify lança 'Premium Duo' no Brasil, seu plano para casais"
                         src="imagens/spotify.jpg">
-                    <div>
-                        <h3>
-                            Spotify lança 'Premium Duo' no Brasil, seu plano para casais
-                        </h3>
-                    </div>
+                    <h3>
+                        Spotify lança 'Premium Duo' no Brasil, seu plano para casais
+                    </h3>
                 </article>
             </a>
+
+            <dl title="Mais lidas">
+                <dt>Tecnologia</dt>
+                    <dd>Google Pixel 4 vem aí</dd>
+                    <dd>Xiaomi anuncia geladeira inteligente</dd>
+                <dt>Ciência</dt>
+                    <dd>Entenda o tratamento do câncer testado em um paciente do Brasil pela 1ªvez</dd>
+            </dl>
         </div>
     </aside>
 
@@ -116,12 +120,6 @@
             <a href="#" id="linkedin">in</a>
         </div>
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>
