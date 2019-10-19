@@ -12,7 +12,7 @@ body {
 header figure {
     display: flex;
     justify-content: center;
-    border: beige;
+    border: rgb(255, 255, 0);
 }
 
 /* menu */
@@ -108,6 +108,19 @@ aside {
     height: 88;
     padding: 12px;
     border-radius: 20px;
+}
+
+/* tabela */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid;
 }
 
 /* footer */
